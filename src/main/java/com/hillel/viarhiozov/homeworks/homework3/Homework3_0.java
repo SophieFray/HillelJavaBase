@@ -6,15 +6,14 @@ public class Homework3_0 {
 
         int min = 1;
         int max = 100;
-        int resultRand = (int) ((Math.random() * (max- min + 1)) + min);
 
-        int height = (int) ((Math.random() * (max- min + 1)) + min);
-        int length = (int) ((Math.random() * (max- min + 1)) + min);
-        int width = (int) ((Math.random() * (max- min + 1)) + min);
+        int height = (int) ((Math.random() * (max - min + 1)) + min);
+        int length = (int) ((Math.random() * (max - min + 1)) + min);
+        int width = (int) ((Math.random() * (max - min + 1)) + min);
 
         int volume = height * length * width;
 
-        int lengthSum = height+length+width;
+        int lengthSum = height + length + width;
 
         System.out.println("Параметри паралелепіпеда:");
         System.out.println("Висота - " + height);
@@ -26,10 +25,6 @@ public class Homework3_0 {
         System.out.println("Об'єм паралелепіпеда = " + volume);
         System.out.println();
         System.out.println("Сумма сторін паралелепіпеда = " + lengthSum);
-
-
-
-
 
 
     }
