@@ -17,16 +17,15 @@ public class Homework3_0 {
         int lengthSum = height+length+width;
 
         System.out.println("Параметри паралелепіпеда:");
-        System.out.println();
-        System.out.println("Висота: " + height);
-        System.out.println("Ширина: " + width);
-        System.out.println("Довжина: " + length);
+        System.out.println("Висота - " + height);
+        System.out.println("Ширина - " + width);
+        System.out.println("Довжина - " + length);
         System.out.println();
 
 
         System.out.println("Об'єм паралелепіпеда = " + volume);
         System.out.println();
-        System.out.println("Сумма сторін паралелепіпеда: " + lengthSum);
+        System.out.println("Сумма сторін паралелепіпеда = " + lengthSum);
 
 
 
