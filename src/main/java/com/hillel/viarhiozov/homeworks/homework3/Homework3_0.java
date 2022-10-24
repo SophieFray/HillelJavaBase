@@ -14,6 +14,8 @@ public class Homework3_0 {
 
         int volume = height * length * width;
 
+        int lengthSum = height+length+width;
+
         System.out.println("Параметри паралелепіпеда:");
         System.out.println();
         System.out.println("Висота: " + height);
@@ -23,6 +25,8 @@ public class Homework3_0 {
 
 
         System.out.println("Об'єм паралелепіпеда = " + volume);
+        System.out.println();
+        System.out.println("Сумма сторін паралелепіпеда: " + lengthSum);
 
 
 
