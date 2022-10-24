@@ -13,7 +13,7 @@ public class Homework3_0 {
 
         int volume = height * length * width;
 
-        int lengthSum = height + length + width;
+        int lengthSum = (height * 4) + (length * 4) + (width * 4);
 
         System.out.println("Параметри паралелепіпеда:");
         System.out.println("Висота - " + height);
