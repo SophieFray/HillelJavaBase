@@ -179,26 +179,26 @@ public class Homework4 {
         }
 
 
-        int sumTeam1 = player11 + player21 + player31 + player41 + player51;
-        int sumTeam2 = player12 + player22 + player32 + player42 + player52;
+        int avgTeam1 = Math.round((player11 + player21 + player31 + player41 + player51) / 5);
+        int avgTeam2 = Math.round((player12 + player22 + player32 + player42 + player52) / 5);
 
-        if (sumTeam1 == sumTeam2) {
+        if (avgTeam1 == avgTeam2) {
             System.out.println();
             System.out.println();
             System.out.println("It`s a Draw!");
 
-        } else if (sumTeam1 > sumTeam2) {
+        } else if (avgTeam1 > avgTeam2) {
 
             System.out.println();
             System.out.println();
-            System.out.println(firstTeam + " wins with total " + sumTeam1 + " frags!");
+            System.out.println(firstTeam + " wins with total " + avgTeam1 + " frags!");
 
 
         } else {
 
             System.out.println();
             System.out.println();
-            System.out.println(secondTeam + " wins with total " + sumTeam2 + " frags!");
+            System.out.println(secondTeam + " wins with total " + avgTeam2 + " frags!");
 
         }
 
