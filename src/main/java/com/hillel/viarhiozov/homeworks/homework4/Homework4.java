@@ -1,4 +1,5 @@
 package com.hillel.viarhiozov.homeworks.homework4;
+
 import java.util.Scanner;
 
 public class Homework4 {
@@ -21,10 +22,9 @@ public class Homework4 {
         String secondTeam;
 
 
-
         System.out.println("Enter the name of the first team:");
 
-        firstTeam =  (scanner.nextLine());
+        firstTeam = (scanner.nextLine());
 
 
         System.out.println("Enter count of the first Player`s frags of " + "'" + firstTeam + "'" + " team : ");
@@ -41,7 +41,6 @@ public class Homework4 {
             System.exit(0);
 
         }
-
 
 
         System.out.println("Enter count of the second Player`s frags of " + "'" + firstTeam + "'" + " team : ");
@@ -111,7 +110,7 @@ public class Homework4 {
         System.out.println("Enter the name of the second team:");
         secondTeam = (scanner.nextLine());
 
-        System.out.println("Enter count of the first Player`s frags of " + "'" + secondTeam +  "'" + " team : ");
+        System.out.println("Enter count of the first Player`s frags of " + "'" + secondTeam + "'" + " team : ");
         if (scanner.hasNextInt()) {
 
             player12 = scanner.nextInt();
@@ -125,7 +124,7 @@ public class Homework4 {
 
         }
 
-        System.out.println("Enter count of the second Player`s frags of " +  "'" + secondTeam + "'" + " team : ");
+        System.out.println("Enter count of the second Player`s frags of " + "'" + secondTeam + "'" + " team : ");
         if (scanner.hasNextInt()) {
 
             player22 = scanner.nextInt();
@@ -202,9 +201,6 @@ public class Homework4 {
             System.out.println(secondTeam + " wins with total " + sumTeam2 + " frags!");
 
         }
-
-
-
 
 
     }
