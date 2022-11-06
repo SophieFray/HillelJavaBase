@@ -18,8 +18,10 @@ public class Homework5_1 {
         int generatedNumber = (int) (Math.random() * 11);
         int misses = 3;
 
+        System.out.println("Guess the Number Game!");
+
         while (true) {
-            System.out.println("\nGuess the Number Game! \nEnter the number!");
+            System.out.println("Enter the number!");
             if (scanner.hasNextInt() == false) {
 
                 System.out.println("\nWrong input! Only ints from 0 to 10 are allowed!");
