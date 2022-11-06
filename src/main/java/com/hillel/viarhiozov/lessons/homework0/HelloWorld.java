@@ -1,4 +1,4 @@
-package com.hillel.viarhiozov.homeworks.homework0;
+package com.hillel.viarhiozov.lessons.homework0;
 
 public class HelloWorld {
     //java code convention
