@@ -20,7 +20,12 @@ public class Homework5_0 {
             System.out.println("\nEnter Ship Count");
             if (scanner.hasNextInt()) {
                 shipCount = scanner.nextInt();
-                break;
+                if (shipCount > 0) {
+                    break;
+                } else {
+                    System.out.println("Ship count should be 1 or greater!");
+                }
+
             } else {
                 System.out.println("\nWrong input! Only int allowed!");
                 scanner.nextLine();
