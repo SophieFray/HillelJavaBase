@@ -17,7 +17,6 @@ public class Homework7 {
 //        [1, 1, 2, 3, 5, 6, 9]
 //        Кількість збігів: 3
 
-
         int[] lotteryNum = new int[7];
         int[] playerNum = new int[7];
         int counterMatch = 0;
@@ -25,8 +24,11 @@ public class Homework7 {
         for (int i = 0; i < lotteryNum.length; i++) {
             lotteryNum[i] = (int) (Math.random() * 10);
             playerNum[i] = (int) (Math.random() * 10);
-
         }
+
+        Arrays.sort(lotteryNum);
+        Arrays.sort(playerNum);
+
 
         System.out.println("Lottery ticket: " + Arrays.toString(lotteryNum));
         System.out.println("\nPlayer`s guess: " + Arrays.toString(playerNum));
