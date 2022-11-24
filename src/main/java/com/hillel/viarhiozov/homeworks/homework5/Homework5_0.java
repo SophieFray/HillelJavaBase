@@ -1,4 +1,4 @@
-package com.hillel.viarhiozov.homeworks.Homework5;
+package com.hillel.viarhiozov.homeworks.homework5;
 
 import java.util.Scanner;
 
