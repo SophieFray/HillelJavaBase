@@ -25,7 +25,7 @@ public class Homework8 {
             rows = scanner.nextInt();
             if (rows < 1) {
 
-                System.out.println("\nWrong input! Only ints from 0 to 10 are allowed!");
+                System.out.println("\nWrong input! Only ints greater then '1' are allowed!");
                 continue;
             }
             scanner.nextLine();
@@ -44,7 +44,7 @@ public class Homework8 {
             columns = scanner.nextInt();
             if (columns < 1) {
 
-                System.out.println("\nWrong input! Only ints from 0 to 10 are allowed!");
+                System.out.println("\nWrong input! Only ints greater then '1' are allowed!");
                 continue;
             }
             break;
