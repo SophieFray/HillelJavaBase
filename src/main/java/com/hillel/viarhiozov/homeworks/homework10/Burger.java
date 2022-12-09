@@ -38,9 +38,9 @@ public class Burger {
         this.salad = salad;
         this.cheese = cheese;
         this.mayonnaise = mayonnaise;
-        this.isDoubleMeat = true;
+        this.isDoubleMeat = isDoubleMeat;
         System.out.println();
-        System.out.println("Double Meat composition: " + "\nDouble meat: " + this.meat + "\nBun: " + this.bun + "\nSalad: " + salad + "\nMayonnaise: " + this.mayonnaise + "\nCheese: " + cheese);
+        System.out.println("Double Meat composition: " + "\nMeat: " + this.meat + "Double Meat: " + this.isDoubleMeat + "\nBun: " + this.bun + "\nSalad: " + salad + "\nMayonnaise: " + this.mayonnaise + "\nCheese: " + cheese);
     }
 
 
