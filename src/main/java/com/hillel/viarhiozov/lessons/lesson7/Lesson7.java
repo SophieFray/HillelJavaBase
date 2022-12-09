@@ -4,7 +4,7 @@ public class Lesson7 {
     public static void main(String[] args) {
 
 
-        int [] array = new int[0];
+        int [] array1 = new int[0];
 
 
     }
