@@ -5,6 +5,6 @@ public class ClassicMusic extends MusicStyles {
     @Override
     public void playMusic() {
         super.playMusic();
-        System.out.println("Classic Music");
+        System.out.println("Classic Music.");
     }
 }
