@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        ArrayList<Drinks.DrinksMachine> orderList = new ArrayList<Drinks.DrinksMachine>();
+        ArrayList<Drinks.DrinksMachine> orderList = new ArrayList<>();
 
 
         Scanner scanner = new Scanner(System.in);
